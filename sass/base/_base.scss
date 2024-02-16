@@ -1,0 +1,202 @@
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+  width: 7px;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+}
+
+::-webkit-scrollbar-track {
+  scroll-behavior: smooth;
+  border-radius: 0;
+  transition: 0.3s ease;
+ 
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  transition: 0.3s ease;
+
+
+}
+
+html {
+  font-size: 87.5%;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+  overflow-x: hidden;
+
+}
+
+
+
+
+a {
+  text-decoration: none;
+  transition: 0.5s ease;
+
+}
+
+
+
+
+
+.MyApp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'oswald', sans-serif;
+  font: antialised;
+  -webkit-font-smoothing: antialised;
+  -moz-font-smoothing: grayscale;
+
+
+
+}
+
+button {
+  background: none;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.9rem 2rem;
+  border-radius: 3px;
+  margin: 0.6rem;
+  -webkit-appearance: button important;
+  -moz-appearance: button;
+  -o-appearance: button;
+  appearance: button;
+
+
+
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+input {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.62em;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+}
+
+input[type=submit] {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.2rem;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+
+}
+
+textarea {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.2rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 1rem;
+  -webkit-appearance: textarea;
+  -moz-appearance: textarea;
+  -o-appearance: textarea;
+  appearance: textarea;
+
+
+}
+
+label {
+  margin: 20px;
+}
+
+input::-webkit-input-placeholder {
+  font: inherit;
+}
+
+input::-moz-placeholder {
+  font: inherit;
+}
+
+input:-ms-input-placeholder {
+  font: inherit;
+}
+
+input::-ms-input-placeholder {
+  font: inherit;
+}
+
+input::placeholder {
+  font: inherit;
+}
+
+footer {
+  margin-top: auto;
+}
+
+ul {
+  display: block;
+  transition: 0.5s ease;
+  padding: 0;
+  text-decoration: none;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  transition: 0.5s ease;
+  cursor: pointer;
+  padding: 0;
+
+}
