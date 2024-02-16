@@ -8,7 +8,7 @@ const Post = ({ post: { title, body, imgUrl, author }, index }) => {
             <Image className={styles.image} src={imgUrl} alt="post" />
             <p>{body}</p>
             <div className={styles.info}>
-                <h4>Written by: {author}</h4>
+                <h4> by: {author}</h4>
             </div>
         
         </div>
