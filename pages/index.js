@@ -16,6 +16,7 @@ export default function Home() {
         <meta property="og:type" content="blog website" />
         <meta property="og:url" content="https://techvoicegh.vercel.app" />
         <meta property="og:image" content="/favicon.ico" />
+        <meta name="google-adsense-account" content="ca-pub-2474265697377160"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
